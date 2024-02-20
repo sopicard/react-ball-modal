@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "description": "A reusable Modal component to display messages or notifications in React web applications. Easy to integrate and customizable according to the needs of the project.",
-  "main": "index.js",
+  "main": "main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
