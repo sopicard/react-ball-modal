@@ -1,8 +1,56 @@
-# React + Vite
+# React Ball Modal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React modal component with a ball design.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Ball Modal is a lightweight and customizable modal component for React applications.
+
+## Installation
+
+You can install react-ball-modal via npm:
+
+```bash
+npm install react-ball-modal
+
+Usage
+
+import { useState } from 'react'
+import Modal from 'react-ball-modal'
+
+function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true)
+  }
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false)
+  }
+
+  return (
+    <main>
+      <h1 className='mainTitle'>Ball Modal</h1>
+      <button className='button' onClick={handleOpenModal}>Open Modal</button>
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal} message="Choose your content !" />
+    </main>
+  )
+}
+
+export default App
+
+Props
+
+- `isOpen` (boolean, required): Controls whether the modal is open or closed.
+- `onClose` (function, required): Callback function to handle closing the modal.
+- `message` (string): Message to display inside the modal.
+
+Prerequisites
+
+Before using this modal component, make sure you have the following dependency installed:
+
+- [React](https://reactjs.org/)
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
