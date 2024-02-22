@@ -1,20 +1,30 @@
-# React Ball Modal
+# REACT BALL MODAL
 
 A simple React modal component with a ball design.
 
-## Description
+## DESCRIPTION
 
 React Ball Modal is a lightweight and customizable modal component for React applications.
 
-## Installation
+### Prerequisites
+
+Before using this modal component, make sure you have the following dependency installed:
+
+- [React](https://reactjs.org/)
+
+## INSTALLATION
 
 You can install react-ball-modal via npm:
 
 ```bash
 npm install react-ball-modal
+```
 
-Usage
+## Usage
 
+Here's an example of using the Modal component in your project:
+
+```jsx
 import { useState } from 'react'
 import Modal from 'react-ball-modal/src/components/Modal'
 
@@ -39,25 +49,22 @@ function App() {
 }
 
 export default App
+```
 
-Props
+### Props
 
 - `isOpen` (boolean, required): Controls whether the modal is open or closed.
 - `onClose` (function, required): Callback function to handle closing the modal.
 - `message` (string): Message to display inside the modal.
 
-Prerequisites
-
-Before using this modal component, make sure you have the following dependency installed:
-
-- [React](https://reactjs.org/)
-
-Styling
+### Styling
 
 To apply the default styles provided with the Modal component, you can import the default CSS file into your project:
 
+```jsx
 import 'react-ball-modal/src/index.css'
+```
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details.
