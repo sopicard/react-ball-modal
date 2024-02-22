@@ -1,10 +1,10 @@
 {
   "name": "react-ball-modal",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "A reusable Modal component to display messages or notifications in React web applications. Easy to integrate and customizable according to the needs of the project.",
-  "main": "main.jsx",
+  "main": "src/main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,14 +16,14 @@
     "url": "https://github.com/sopicard/react-ball-modal.git"
   },
   "keywords": [
-    "[\"modal\"",
-    "[\"react\"",
-    "[\"component\"",
-    "[\"message\"",
-    "[\"notification\"",
-    "[\"ball\"",
-    "[\"round\"",
-    "[\"sphere\""
+    "modal",
+    "react",
+    "component",
+    "message",
+    "notification",
+    "ball",
+    "round",
+    "sphere"
   ],
   "author": "Sophie Picard <sogautrelet@gmail.com>",
   "dependencies": {
