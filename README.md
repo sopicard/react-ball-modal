@@ -16,7 +16,7 @@ npm install react-ball-modal
 Usage
 
 import { useState } from 'react'
-import Modal from 'react-ball-modal'
+import Modal from 'react-ball-modal/src/components/Modal'
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -52,5 +52,12 @@ Before using this modal component, make sure you have the following dependency i
 
 - [React](https://reactjs.org/)
 
+Styling
+
+To apply the default styles provided with the Modal component, you can import the default CSS file into your project:
+
+import 'react-ball-modal/src/index.css'
+
 License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details.
