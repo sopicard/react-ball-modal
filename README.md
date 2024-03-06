@@ -1,4 +1,4 @@
-# REACT BALL MODAL v2.0.0
+# REACT BALL MODAL v2.1.0
 
 A simple React modal component with a ball design.
 
@@ -22,13 +22,12 @@ npm install react-ball-modal
 
 ## Usage
 
-Here's an example of using the Modal component in your project:
+Here's an example of importing and using the Modal component in your project:
 
 ```jsx
-import { useState } from 'react'
-import Modal from 'react-ball-modal/src/components/Modal'
+import Modal from 'react-ball-modal'
 
-function App() {
+function MyComponent() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   const handleOpenModal = () => {
@@ -40,15 +39,14 @@ function App() {
   }
 
   return (
-    <main>
-      <h1 className='mainTitle'>Ball Modal</h1>
-      <button className='button' onClick={handleOpenModal}>Open Modal</button>
-      <Modal isOpen={isModalOpen} onClose={handleCloseModal} message="Choose your content !" />
-    </main>
+    <div>
+      <button onClick={handleOpenModal}>Open Modal</button>
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal} message='Choose your content !' />
+    </div>
   )
 }
 
-export default App
+export default MyComponent
 ```
 
 ### Props

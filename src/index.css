@@ -11,40 +11,6 @@ body {
   background-color:  #F0997D;
 }
 
-main {
-  background-color: #FFF3E2;
-  color: #A75D5D;
-  padding: 4rem;
-  border-radius: 10px;
-}
-
-.mainTitle {
-  text-align: center;
-  margin: 2rem;
-  font-size: 2.5rem;
-}
-
-.button {
-  border: #A75D5D 1px solid;
-  color: #FFFFFF;
-  background-color: #A75D5D;
-  padding: 0.5rem;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 2rem;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem;
-}
-
-.button:hover {
-  border: #F0997D 1px solid;
-  color: white;
-  background-color: #F0997D;
-}
-
-/* Modale */
-
 .modal {
   position: fixed;
   top: 50%;
