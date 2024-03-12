@@ -1,14 +1,10 @@
 {
   "name": "react-ball-modal",
   "private": false,
-  "version": "2.2.4",
+  "version": "2.2.5",
   "type": "module",
   "description": "A reusable Modal component to display messages or notifications in React web applications. Easy to integrate and customizable according to the needs of the project.",
-  "exports": {
-    ".": {
-      "import": "./dist/index.js"
-    }
-  },
+  "main" : "./main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
