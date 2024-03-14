@@ -1,4 +1,4 @@
-# REACT BALL MODAL v2.2.5
+# REACT BALL MODAL v2.2.6
 
 A simple React modal component with a ball design.
 
